@@ -1,0 +1,104 @@
+:root {
+  --darkgray: #2b2b2b;
+  --gray: #555;
+  --orange: #ff6712;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--gray);
+}
+
+#app {
+  height: 100%;
+}
+
+.navbar {
+  background-color: var(--darkgray);
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link.active {
+  color: var(--orange);
+}
+
+.bottom-bar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.sidebar {
+  width: max-content;
+  margin: 0 auto;
+  background-color: var(--darkgray);
+}
+
+.card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: .3rem;
+}
+
+.background-logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 25%;
+}
+
+.title {
+  margin: 20px 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list ul li {
+  padding: 10px;
+  border: 1px solid lightgray;
+  list-style: none;
+}
+
+.button-rounded {
+  border-radius: 50%;
+  background-color: var(--darkgray);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.button-rounded:hover {
+  background-color: var(--orange);
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  border-radius: 20px;
+}
+
+.search-bar .material-icons {
+  position: absolute;
+  right: 10px;
+}
